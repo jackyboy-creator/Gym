@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './index.css';
+import GymContainer from "./components/GymContainer";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='dark:border-black bg-tealy border-gray-200 max-w-md mx-auto sm:max-w-xl border-solid border-4 lg:max-w-4xl xl:max-w-7xl dark:bg-gray-700'>
+      <GymContainer/>
+
     </div>
   );
 }
